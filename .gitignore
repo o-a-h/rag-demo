@@ -1,0 +1,47 @@
+# Claude Code
+.claude/settings.local.json
+.claude/.credentials.json
+.claude/projects/
+.claude/todos/
+.claude/shell-snapshots/
+.claude/statsig/
+.claude/ide/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# uv
+# (uv.lock should be committed; .venv is ignored above)
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Editors
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
